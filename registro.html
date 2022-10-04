@@ -7,102 +7,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/6131ecdde6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/registro.css">
-    <title>Hotelia</title>
+    <title>Registrate</title>
 </head>
 
 <body>
-    <section class="menu">
+    <section class="bloque">
         <div class="logo">
-            <img src="img/Hotelia horizontal blanco.svg" alt="" class="desktop">
-            <img src="img/hotelia campana.svg" alt="" class="mobile">
+            <img src="img/Hotelia horizontal blanco.svg" alt="">
         </div>
-        <h4>Eres más que <br>bienvenido</h4>
+        <div class="txt">
+            <h4 class="compt">Eres más que <br>bienvenido</h4>
+
+            <h4 class="cel">Un lugar en tu corazón</h4>
+        </div>
 </section>
 
 
-    <div class="encabezado">
-        <div class="container">
+    <div class="form">
+
+        <section class="caja">
             <div class="titulo">
                 <h2>Regístrate</h2>
             </div>
-            <div class="form">
-                <div class="izquierda">
-                    <label for="">Tipo de documento</label>
+
+
+            <section class="datos">
+               
+              <div class="izquierda">
+                    <label>Tipo de documento</label>
                     <input type="text" placeholder="Escoja una opción">
-                    <label for="">Nombres</label>
+                    <label>Nombres</label>
                     <input type="text">
-                    <label for="">Fecha de nacimiento</label>
+                    <label>Fecha de nacimiento</label>
                     <input type="text">
-                    <label for="">Email</label>
+                    <label>Email</label>
                     <input type="email">
-                    <label for="" >País de origen</label>
+                    <label>País de origen</label>
                     <input type="text">
-                    <label for="">Contraseña</label>
+                    <label>Contraseña</label>
                     <input type="password">
-                </div>
+              </div>
 
                 <div class="derecha">
-                    <label for="" class="datosdere1">Número de documento</label>
-                    <input type="text" class="datosdere11">
-                    <label for="" class="datosdere2">Apellidos</label>
-                    <input type="text"class="datosdere22">
-                    <label for="">Genero</label>
-                    <div class="generos">
-                        <input type="radio" class="genero">
-                        <label for="">Mujer</label>
-                        <input type="radio" class="genero">
-                        <label for="">Hombre</label>
-                        <input type="radio" class="genero">
-                        <label for="">Otro</label>
-                    </div>
-                    <label for="" class="datosdere4">Telefono de contacto</label>
-                    <input type="number" class="datosdere44">
-                    <label for="">Foto</label>
+                    <label>Número de documento</label>
+                    <input type="text">
+                    <label>Apellidos</label>
+                    <input type="text">
+
+                    <label>Genero</label>
+
+                        <div class="generos">
+                            <input type="radio">
+                            <label>Mujer</label>
+
+                            <input type="radio">
+                            <label>Hombre</label>
+
+                            <input type="radio">
+                            <label>Otro</label>
+                       </div>
+
+                    <label>Telefono de contacto</label>
+                    <input type="number">
+                    <label>Foto</label>
                     <input type="password" placeholder="Seleccionar archivo">
-
-
-                    <label for="">Confirmar contraseña</label>
+                    <label>Confirmar contraseña</label>
                     <input type="password" placeholder="">
-
-
                 </div>
-               
+                <div class="ter">
+                    <input type="checkbox" class="te">
+                    <label>Acepto Terminos y Condiciones</label>
+                   
+                </div>
+                <button class="boton"><a href="dashboard.html">Ingresar</a></button>
+    
+                
+            </section>
 
+            <div class="tercel">
+                <input type="checkbox" class="tecel">
+                <label>Acepto Terminos y Condiciones</label>
             </div>
-            <input type="checkbox" id="btn-modal">
-                <label for="btn-modal" class="lbl-modal">Acepta Terminos y Condiciones</label>
-                <div class="container-button">
-                    <button type="submit"><a href="login.html">Ingresar</a></button>
-                </div>
 
-                <div class="modal">
-                    <div class="contenedor">
-                        <header>Terminos y Condiciones</header>
-                        <label for="btn-modal">X</label>
-                        <div class="contenido">
-                            <p>
-                                Estos Términos del Servicio reflejan la forma de trabajar de Google como empresa, las
-                                leyes por las que nos regimos y
-                                determinados aspectos que siempre hemos creido que son ciertos. Por ello, estos Términos
-                                del Servicio ayudan a definir
-                                la relación que tiene Google contigo cuando interactúas con nuestros servicios, Por
-                                ejemplo, estos términos incluyen las
-                                siguientes secciones:
-                            </p>
-                            <p>
-                                Qué puedes esperar de nosotros, donde se describe como proporcionamos y desarrollamos
-                                nuestros servicios. Lo que
-                                esperamos de ti, donde se establecen ciertas reglas para utilizar nuestros servicios.
-                            </p>
+              <button class="boton2"><a href="dashboard.html">Ingresar</a></button>
 
-                            <button>Aceptar</button>
-                        </div>
-
-
-                    </div>
-        </div>
+        </section>
     </div>
-
 </body>
-
 </html>
